@@ -1,0 +1,48 @@
+{
+    "test_prompts": [
+        {
+            "language": "chinese",
+            "text": "你好，欢迎使用语音合成系统。今天的天气非常好。",
+            "description": "Basic Chinese greeting and weather"
+        },
+        {
+            "language": "english",
+            "text": "Hello, welcome to the speech synthesis system. The weather is wonderful today.",
+            "description": "Basic English greeting and weather"
+        },
+        {
+            "language": "japanese",
+            "text": "こんにちは、音声合成システムへようこそ。今日はとてもいい天気ですね。",
+            "description": "Basic Japanese greeting and weather"
+        },
+        {
+            "language": "cantonese",
+            "text": "你好，歡迎使用語音合成系統。今日天氣好好。",
+            "description": "Basic Cantonese greeting and weather"
+        },
+        {
+            "language": "korean",
+            "text": "안녕하세요, 음성 합성 시스템에 오신 것을 환영합니다. 오늘 날씨가 아주 좋습니다.",
+            "description": "Basic Korean greeting and weather"
+        }
+    ],
+    "inference_modes": {
+        "sft": {
+            "description": "Supervised fine-tuning mode with predefined speaker",
+            "spk_id": "default"
+        },
+        "zero_shot": {
+            "description": "Zero-shot voice cloning from reference audio",
+            "prompt_text": "This is a sample prompt for voice cloning.",
+            "prompt_wav_path": null
+        },
+        "cross_lingual": {
+            "description": "Cross-lingual synthesis from reference audio",
+            "prompt_wav_path": null
+        },
+        "instruct": {
+            "description": "Instruction-guided synthesis",
+            "instruct_text": "Please speak in a warm and friendly tone."
+        }
+    }
+}
