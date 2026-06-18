@@ -1,0 +1,17 @@
+{
+  "case_id": "sft_ko",
+  "mode": "sft",
+  "lang": "ko",
+  "text": "<|ko|>\uc548\ub155\ud558\uc138\uc694, \uc624\ub298 \ub0a0\uc528\uac00 \uc815\ub9d0 \uc88b\ub124\uc694.",
+  "n_tokens_ref": 110,
+  "n_tokens_tt": 111,
+  "token_accuracy_greedy": 0.00980392156862745,
+  "n_token_matches_greedy": 1,
+  "token_accuracy_sampled": 0.00909090909090909,
+  "n_token_matches_sampled": 1,
+  "wer_ref": 1.0,
+  "wer_tt": 1.0,
+  "spk_sim": 0.28645684699742996,
+  "ref_wav_dur": 0.5572789115646258,
+  "tt_wav_dur": 2.2175056689342405
+}

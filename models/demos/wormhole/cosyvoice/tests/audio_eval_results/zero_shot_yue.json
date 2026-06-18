@@ -1,0 +1,17 @@
+{
+  "case_id": "zero_shot_yue",
+  "mode": "zero_shot",
+  "lang": "yue",
+  "text": "<|yue|>\u4f60\u597d\u55ce, \u6211\u54cb\u800c\u5bb6\u53bb\u908a\u5ea6\u98df\u98ef\u5440?",
+  "n_tokens_ref": 200,
+  "n_tokens_tt": 200,
+  "token_accuracy_greedy": 0.0,
+  "n_token_matches_greedy": 0,
+  "token_accuracy_sampled": 0.0,
+  "n_token_matches_sampled": 0,
+  "wer_ref": 1.0,
+  "wer_tt": 1.0,
+  "spk_sim": 0.013197859651483465,
+  "ref_wav_dur": 3.1927437641723357,
+  "tt_wav_dur": 3.9938321995464854
+}

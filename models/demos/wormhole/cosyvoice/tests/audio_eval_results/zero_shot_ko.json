@@ -1,0 +1,17 @@
+{
+  "case_id": "zero_shot_ko",
+  "mode": "zero_shot",
+  "lang": "ko",
+  "text": "<|ko|>\uc548\ub155\ud558\uc138\uc694, \uc624\ub298 \ub0a0\uc528\uac00 \uc815\ub9d0 \uc88b\ub124\uc694.",
+  "n_tokens_ref": 200,
+  "n_tokens_tt": 177,
+  "token_accuracy_greedy": 0.0,
+  "n_token_matches_greedy": 0,
+  "token_accuracy_sampled": 0.01694915254237288,
+  "n_token_matches_sampled": 3,
+  "wer_ref": 1.2,
+  "wer_tt": 1.0,
+  "spk_sim": 0.13351348235546592,
+  "ref_wav_dur": 2.589024943310658,
+  "tt_wav_dur": 3.5294331065759637
+}

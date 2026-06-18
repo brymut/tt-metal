@@ -1,0 +1,33 @@
+================================================================================
+CosyVoice Audio Quality Summary
+================================================================================
+NOTE: sft_en row re-measured post-Session-10 (streaming rel-pos fix). All other
+19 rows are pre-Session-10 (Session 9) numbers and PENDING re-run — token
+accuracy and speaker similarity are expected to rise across all cases.
+================================================================================
+case               mode           lang  n_tok_ref/tt  tok_acc_g  tok_acc_s  wer_ref  wer_tt  spk_sim  tt_dur(s)
+-----------------  -------------  ----  ------------  ---------  ---------  -------  ------  -------  ---------
+cross_lingual_en   cross_lingual  en    199/200       0.000      0.005      0.444    1.000   0.081    3.99
+cross_lingual_ja   cross_lingual  ja    200/200       0.000      0.005      1.000    1.000   -0.020   3.99
+cross_lingual_ko   cross_lingual  ko    200/200       0.007      0.005      0.400    1.000   0.094    3.99
+cross_lingual_yue  cross_lingual  yue   200/200       0.000      0.000      1.500    1.000   -0.001   3.99
+cross_lingual_zh   cross_lingual  zh    200/200       0.000      0.005      1.000    1.000   0.040    3.99
+instruct_en        instruct       en    200/200       0.000      0.005      0.889    1.000   0.172    3.99
+instruct_ja        instruct       ja    200/200       0.000      0.005      2.000    1.000   -0.038   3.99
+instruct_ko        instruct       ko    200/200       0.010      0.005      1.000    1.000   0.011    3.99
+instruct_yue       instruct       yue   200/200       0.000      0.000      1.000    1.000   0.017    3.99
+instruct_zh        instruct       zh    200/200       0.000      0.010      1.000    1.000   0.127    3.99
+sft_en             sft            en    200/125       0.051      0.008      1.000    1.000   0.196    2.50
+sft_ja             sft            ja    200/200       0.000      0.005      1.000    1.000   0.601    3.99
+sft_ko             sft            ko    110/200       0.000      0.000      1.000    1.000   0.441    3.99
+sft_yue            sft            yue   200/200       0.000      0.005      1.000    1.000   0.431    3.99
+sft_zh             sft            zh    200/200       0.000      0.005      1.000    1.000   -0.011   3.99
+zero_shot_en       zero_shot      en    200/200       0.000      0.010      0.667    1.000   -0.042   3.99
+zero_shot_ja       zero_shot      ja    200/200       0.005      0.000      4.000    1.000   0.005    3.99
+zero_shot_ko       zero_shot      ko    200/200       0.005      0.005      1.200    1.000   -0.031   3.99
+zero_shot_yue      zero_shot      yue   200/200       0.005      0.000      1.000    1.000   -0.070   3.99
+zero_shot_zh       zero_shot      zh    200/200       0.005      0.005      1.000    1.000   0.137    3.99
+--------------------------------------------------------------------------------
+sft_en (post-Session-10): tok_acc_g 0.009 -> 0.051 (5.7x), spk_sim 0.160 -> 0.196
+Aggregate (mixed Session-9/10, NOT directly comparable): n=20 mean_tok_acc_g=0.007 mean_tok_acc_s=0.004 mean_wer_ref=1.155 mean_wer_tt=1.000 mean_spk_sim=0.106 mean_tt_dur=3.94s
+================================================================================

@@ -1,0 +1,17 @@
+{
+  "case_id": "cross_lingual_en",
+  "mode": "cross_lingual",
+  "lang": "en",
+  "text": "Hello world, this is a test of English synthesis.",
+  "n_tokens_ref": 199,
+  "n_tokens_tt": 160,
+  "token_accuracy_greedy": 0.006756756756756757,
+  "n_token_matches_greedy": 1,
+  "token_accuracy_sampled": 0.0125,
+  "n_token_matches_sampled": 2,
+  "wer_ref": 0.4444444444444444,
+  "wer_tt": 1.0,
+  "spk_sim": 0.10795059452122886,
+  "ref_wav_dur": 2.1942857142857144,
+  "tt_wav_dur": 3.1927437641723357
+}

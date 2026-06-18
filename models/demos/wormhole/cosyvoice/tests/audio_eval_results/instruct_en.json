@@ -1,0 +1,17 @@
+{
+  "case_id": "instruct_en",
+  "mode": "instruct",
+  "lang": "en",
+  "text": "Hello world, this is a test of English synthesis.",
+  "n_tokens_ref": 200,
+  "n_tokens_tt": 200,
+  "token_accuracy_greedy": 0.0,
+  "n_token_matches_greedy": 0,
+  "token_accuracy_sampled": 0.005,
+  "n_token_matches_sampled": 1,
+  "wer_ref": 0.8888888888888888,
+  "wer_tt": 1.0,
+  "spk_sim": 0.1720679457127776,
+  "ref_wav_dur": 2.1942857142857144,
+  "tt_wav_dur": 3.9938321995464854
+}

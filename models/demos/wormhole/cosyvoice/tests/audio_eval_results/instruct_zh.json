@@ -1,0 +1,17 @@
+{
+  "case_id": "instruct_zh",
+  "mode": "instruct",
+  "lang": "zh",
+  "text": "<|zh|>\u4eca\u5929\u5929\u6c14\u771f\u597d, \u6211\u4eec\u4e00\u8d77\u53bb\u516c\u56ed\u6563\u6b65\u5427\u3002",
+  "n_tokens_ref": 200,
+  "n_tokens_tt": 200,
+  "token_accuracy_greedy": 0.0,
+  "n_token_matches_greedy": 0,
+  "token_accuracy_sampled": 0.01,
+  "n_token_matches_sampled": 2,
+  "wer_ref": 1.0,
+  "wer_tt": 1.0,
+  "spk_sim": 0.12660249307082336,
+  "ref_wav_dur": 3.7964625850340137,
+  "tt_wav_dur": 3.9938321995464854
+}

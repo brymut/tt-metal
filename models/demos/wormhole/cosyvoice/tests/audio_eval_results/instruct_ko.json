@@ -1,0 +1,17 @@
+{
+  "case_id": "instruct_ko",
+  "mode": "instruct",
+  "lang": "ko",
+  "text": "<|ko|>\uc548\ub155\ud558\uc138\uc694, \uc624\ub298 \ub0a0\uc528\uac00 \uc815\ub9d0 \uc88b\ub124\uc694.",
+  "n_tokens_ref": 200,
+  "n_tokens_tt": 200,
+  "token_accuracy_greedy": 0.01,
+  "n_token_matches_greedy": 2,
+  "token_accuracy_sampled": 0.005,
+  "n_token_matches_sampled": 1,
+  "wer_ref": 1.0,
+  "wer_tt": 1.0,
+  "spk_sim": 0.011191354709313973,
+  "ref_wav_dur": 2.589024943310658,
+  "tt_wav_dur": 3.9938321995464854
+}

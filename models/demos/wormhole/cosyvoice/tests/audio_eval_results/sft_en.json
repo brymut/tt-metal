@@ -1,0 +1,17 @@
+{
+  "case_id": "sft_en",
+  "mode": "sft",
+  "lang": "en",
+  "text": "Hello world, this is a test of English synthesis.",
+  "n_tokens_ref": 200,
+  "n_tokens_tt": 125,
+  "token_accuracy_greedy": 0.05128205128205128,
+  "n_token_matches_greedy": 6,
+  "token_accuracy_sampled": 0.008,
+  "n_token_matches_sampled": 1,
+  "wer_ref": 1.0,
+  "wer_tt": 1.0,
+  "spk_sim": 0.19603230891561926,
+  "ref_wav_dur": 1.0565079365079366,
+  "tt_wav_dur": 2.4961451247165534
+}

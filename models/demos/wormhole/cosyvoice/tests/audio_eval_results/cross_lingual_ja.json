@@ -1,0 +1,17 @@
+{
+  "case_id": "cross_lingual_ja",
+  "mode": "cross_lingual",
+  "lang": "ja",
+  "text": "<|jp|>\u3053\u3093\u306b\u3061\u306f\u3001\u4e16\u754c\u306e\u7686\u3055\u3093\u3001\u304a\u5143\u6c17\u3067\u3059\u304b?",
+  "n_tokens_ref": 200,
+  "n_tokens_tt": 200,
+  "token_accuracy_greedy": 0.005,
+  "n_token_matches_greedy": 1,
+  "token_accuracy_sampled": 0.0,
+  "n_token_matches_sampled": 0,
+  "wer_ref": 1.0,
+  "wer_tt": 1.0,
+  "spk_sim": 0.01307381745575066,
+  "ref_wav_dur": 3.3901133786848074,
+  "tt_wav_dur": 3.9938321995464854
+}

@@ -1,0 +1,4135 @@
+{
+  "input_embedding.weight": [
+    4096,
+    512
+  ],
+  "spk_embed_affine_layer.weight": [
+    80,
+    192
+  ],
+  "spk_embed_affine_layer.bias": [
+    80
+  ],
+  "encoder.embed.out.0.weight": [
+    512,
+    512
+  ],
+  "encoder.embed.out.0.bias": [
+    512
+  ],
+  "encoder.embed.out.1.weight": [
+    512
+  ],
+  "encoder.embed.out.1.bias": [
+    512
+  ],
+  "encoder.after_norm.weight": [
+    512
+  ],
+  "encoder.after_norm.bias": [
+    512
+  ],
+  "encoder.encoders.0.self_attn.pos_bias_u": [
+    8,
+    64
+  ],
+  "encoder.encoders.0.self_attn.pos_bias_v": [
+    8,
+    64
+  ],
+  "encoder.encoders.0.self_attn.linear_q.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.0.self_attn.linear_q.bias": [
+    512
+  ],
+  "encoder.encoders.0.self_attn.linear_k.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.0.self_attn.linear_k.bias": [
+    512
+  ],
+  "encoder.encoders.0.self_attn.linear_v.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.0.self_attn.linear_v.bias": [
+    512
+  ],
+  "encoder.encoders.0.self_attn.linear_out.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.0.self_attn.linear_out.bias": [
+    512
+  ],
+  "encoder.encoders.0.self_attn.linear_pos.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.0.feed_forward.w_1.weight": [
+    2048,
+    512
+  ],
+  "encoder.encoders.0.feed_forward.w_1.bias": [
+    2048
+  ],
+  "encoder.encoders.0.feed_forward.w_2.weight": [
+    512,
+    2048
+  ],
+  "encoder.encoders.0.feed_forward.w_2.bias": [
+    512
+  ],
+  "encoder.encoders.0.norm_ff.weight": [
+    512
+  ],
+  "encoder.encoders.0.norm_ff.bias": [
+    512
+  ],
+  "encoder.encoders.0.norm_mha.weight": [
+    512
+  ],
+  "encoder.encoders.0.norm_mha.bias": [
+    512
+  ],
+  "encoder.encoders.1.self_attn.pos_bias_u": [
+    8,
+    64
+  ],
+  "encoder.encoders.1.self_attn.pos_bias_v": [
+    8,
+    64
+  ],
+  "encoder.encoders.1.self_attn.linear_q.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.1.self_attn.linear_q.bias": [
+    512
+  ],
+  "encoder.encoders.1.self_attn.linear_k.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.1.self_attn.linear_k.bias": [
+    512
+  ],
+  "encoder.encoders.1.self_attn.linear_v.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.1.self_attn.linear_v.bias": [
+    512
+  ],
+  "encoder.encoders.1.self_attn.linear_out.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.1.self_attn.linear_out.bias": [
+    512
+  ],
+  "encoder.encoders.1.self_attn.linear_pos.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.1.feed_forward.w_1.weight": [
+    2048,
+    512
+  ],
+  "encoder.encoders.1.feed_forward.w_1.bias": [
+    2048
+  ],
+  "encoder.encoders.1.feed_forward.w_2.weight": [
+    512,
+    2048
+  ],
+  "encoder.encoders.1.feed_forward.w_2.bias": [
+    512
+  ],
+  "encoder.encoders.1.norm_ff.weight": [
+    512
+  ],
+  "encoder.encoders.1.norm_ff.bias": [
+    512
+  ],
+  "encoder.encoders.1.norm_mha.weight": [
+    512
+  ],
+  "encoder.encoders.1.norm_mha.bias": [
+    512
+  ],
+  "encoder.encoders.2.self_attn.pos_bias_u": [
+    8,
+    64
+  ],
+  "encoder.encoders.2.self_attn.pos_bias_v": [
+    8,
+    64
+  ],
+  "encoder.encoders.2.self_attn.linear_q.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.2.self_attn.linear_q.bias": [
+    512
+  ],
+  "encoder.encoders.2.self_attn.linear_k.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.2.self_attn.linear_k.bias": [
+    512
+  ],
+  "encoder.encoders.2.self_attn.linear_v.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.2.self_attn.linear_v.bias": [
+    512
+  ],
+  "encoder.encoders.2.self_attn.linear_out.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.2.self_attn.linear_out.bias": [
+    512
+  ],
+  "encoder.encoders.2.self_attn.linear_pos.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.2.feed_forward.w_1.weight": [
+    2048,
+    512
+  ],
+  "encoder.encoders.2.feed_forward.w_1.bias": [
+    2048
+  ],
+  "encoder.encoders.2.feed_forward.w_2.weight": [
+    512,
+    2048
+  ],
+  "encoder.encoders.2.feed_forward.w_2.bias": [
+    512
+  ],
+  "encoder.encoders.2.norm_ff.weight": [
+    512
+  ],
+  "encoder.encoders.2.norm_ff.bias": [
+    512
+  ],
+  "encoder.encoders.2.norm_mha.weight": [
+    512
+  ],
+  "encoder.encoders.2.norm_mha.bias": [
+    512
+  ],
+  "encoder.encoders.3.self_attn.pos_bias_u": [
+    8,
+    64
+  ],
+  "encoder.encoders.3.self_attn.pos_bias_v": [
+    8,
+    64
+  ],
+  "encoder.encoders.3.self_attn.linear_q.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.3.self_attn.linear_q.bias": [
+    512
+  ],
+  "encoder.encoders.3.self_attn.linear_k.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.3.self_attn.linear_k.bias": [
+    512
+  ],
+  "encoder.encoders.3.self_attn.linear_v.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.3.self_attn.linear_v.bias": [
+    512
+  ],
+  "encoder.encoders.3.self_attn.linear_out.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.3.self_attn.linear_out.bias": [
+    512
+  ],
+  "encoder.encoders.3.self_attn.linear_pos.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.3.feed_forward.w_1.weight": [
+    2048,
+    512
+  ],
+  "encoder.encoders.3.feed_forward.w_1.bias": [
+    2048
+  ],
+  "encoder.encoders.3.feed_forward.w_2.weight": [
+    512,
+    2048
+  ],
+  "encoder.encoders.3.feed_forward.w_2.bias": [
+    512
+  ],
+  "encoder.encoders.3.norm_ff.weight": [
+    512
+  ],
+  "encoder.encoders.3.norm_ff.bias": [
+    512
+  ],
+  "encoder.encoders.3.norm_mha.weight": [
+    512
+  ],
+  "encoder.encoders.3.norm_mha.bias": [
+    512
+  ],
+  "encoder.encoders.4.self_attn.pos_bias_u": [
+    8,
+    64
+  ],
+  "encoder.encoders.4.self_attn.pos_bias_v": [
+    8,
+    64
+  ],
+  "encoder.encoders.4.self_attn.linear_q.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.4.self_attn.linear_q.bias": [
+    512
+  ],
+  "encoder.encoders.4.self_attn.linear_k.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.4.self_attn.linear_k.bias": [
+    512
+  ],
+  "encoder.encoders.4.self_attn.linear_v.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.4.self_attn.linear_v.bias": [
+    512
+  ],
+  "encoder.encoders.4.self_attn.linear_out.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.4.self_attn.linear_out.bias": [
+    512
+  ],
+  "encoder.encoders.4.self_attn.linear_pos.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.4.feed_forward.w_1.weight": [
+    2048,
+    512
+  ],
+  "encoder.encoders.4.feed_forward.w_1.bias": [
+    2048
+  ],
+  "encoder.encoders.4.feed_forward.w_2.weight": [
+    512,
+    2048
+  ],
+  "encoder.encoders.4.feed_forward.w_2.bias": [
+    512
+  ],
+  "encoder.encoders.4.norm_ff.weight": [
+    512
+  ],
+  "encoder.encoders.4.norm_ff.bias": [
+    512
+  ],
+  "encoder.encoders.4.norm_mha.weight": [
+    512
+  ],
+  "encoder.encoders.4.norm_mha.bias": [
+    512
+  ],
+  "encoder.encoders.5.self_attn.pos_bias_u": [
+    8,
+    64
+  ],
+  "encoder.encoders.5.self_attn.pos_bias_v": [
+    8,
+    64
+  ],
+  "encoder.encoders.5.self_attn.linear_q.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.5.self_attn.linear_q.bias": [
+    512
+  ],
+  "encoder.encoders.5.self_attn.linear_k.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.5.self_attn.linear_k.bias": [
+    512
+  ],
+  "encoder.encoders.5.self_attn.linear_v.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.5.self_attn.linear_v.bias": [
+    512
+  ],
+  "encoder.encoders.5.self_attn.linear_out.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.5.self_attn.linear_out.bias": [
+    512
+  ],
+  "encoder.encoders.5.self_attn.linear_pos.weight": [
+    512,
+    512
+  ],
+  "encoder.encoders.5.feed_forward.w_1.weight": [
+    2048,
+    512
+  ],
+  "encoder.encoders.5.feed_forward.w_1.bias": [
+    2048
+  ],
+  "encoder.encoders.5.feed_forward.w_2.weight": [
+    512,
+    2048
+  ],
+  "encoder.encoders.5.feed_forward.w_2.bias": [
+    512
+  ],
+  "encoder.encoders.5.norm_ff.weight": [
+    512
+  ],
+  "encoder.encoders.5.norm_ff.bias": [
+    512
+  ],
+  "encoder.encoders.5.norm_mha.weight": [
+    512
+  ],
+  "encoder.encoders.5.norm_mha.bias": [
+    512
+  ],
+  "encoder_proj.weight": [
+    80,
+    512
+  ],
+  "encoder_proj.bias": [
+    80
+  ],
+  "decoder.estimator.time_mlp.linear_1.weight": [
+    1024,
+    320
+  ],
+  "decoder.estimator.time_mlp.linear_1.bias": [
+    1024
+  ],
+  "decoder.estimator.time_mlp.linear_2.weight": [
+    1024,
+    1024
+  ],
+  "decoder.estimator.time_mlp.linear_2.bias": [
+    1024
+  ],
+  "decoder.estimator.down_blocks.0.0.mlp.1.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.down_blocks.0.0.mlp.1.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.0.block1.block.0.weight": [
+    256,
+    320,
+    3
+  ],
+  "decoder.estimator.down_blocks.0.0.block1.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.0.block1.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.0.block1.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.0.block2.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.down_blocks.0.0.block2.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.0.block2.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.0.block2.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.0.res_conv.weight": [
+    256,
+    320,
+    1
+  ],
+  "decoder.estimator.down_blocks.0.0.res_conv.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.0.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.0.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.0.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.0.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.0.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.0.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.down_blocks.0.1.0.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.0.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.0.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.0.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.0.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.down_blocks.0.1.0.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.down_blocks.0.1.0.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.1.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.1.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.1.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.1.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.1.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.1.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.down_blocks.0.1.1.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.1.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.1.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.1.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.1.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.down_blocks.0.1.1.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.down_blocks.0.1.1.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.2.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.2.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.2.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.2.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.2.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.2.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.down_blocks.0.1.2.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.2.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.2.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.2.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.2.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.down_blocks.0.1.2.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.down_blocks.0.1.2.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.3.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.3.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.3.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.3.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.3.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.3.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.down_blocks.0.1.3.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.3.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.3.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.3.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.down_blocks.0.1.3.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.down_blocks.0.1.3.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.down_blocks.0.1.3.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.0.2.conv.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.down_blocks.0.2.conv.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.0.mlp.1.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.down_blocks.1.0.mlp.1.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.0.block1.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.down_blocks.1.0.block1.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.0.block1.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.0.block1.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.0.block2.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.down_blocks.1.0.block2.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.0.block2.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.0.block2.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.0.res_conv.weight": [
+    256,
+    256,
+    1
+  ],
+  "decoder.estimator.down_blocks.1.0.res_conv.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.0.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.0.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.0.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.0.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.0.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.0.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.down_blocks.1.1.0.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.0.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.0.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.0.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.0.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.down_blocks.1.1.0.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.down_blocks.1.1.0.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.1.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.1.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.1.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.1.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.1.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.1.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.down_blocks.1.1.1.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.1.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.1.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.1.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.1.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.down_blocks.1.1.1.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.down_blocks.1.1.1.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.2.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.2.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.2.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.2.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.2.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.2.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.down_blocks.1.1.2.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.2.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.2.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.2.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.2.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.down_blocks.1.1.2.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.down_blocks.1.1.2.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.3.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.3.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.3.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.3.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.3.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.3.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.down_blocks.1.1.3.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.3.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.3.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.3.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.down_blocks.1.1.3.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.down_blocks.1.1.3.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.down_blocks.1.1.3.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.down_blocks.1.2.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.down_blocks.1.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.0.mlp.1.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.0.0.mlp.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.0.block1.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.0.0.block1.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.0.block1.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.0.block1.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.0.block2.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.0.0.block2.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.0.block2.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.0.block2.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.0.res_conv.weight": [
+    256,
+    256,
+    1
+  ],
+  "decoder.estimator.mid_blocks.0.0.res_conv.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.0.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.0.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.0.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.0.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.0.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.0.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.0.1.0.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.0.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.0.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.0.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.0.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.0.1.0.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.0.1.0.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.1.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.1.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.1.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.1.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.1.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.1.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.0.1.1.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.1.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.1.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.1.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.1.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.0.1.1.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.0.1.1.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.2.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.2.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.2.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.2.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.2.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.2.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.0.1.2.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.2.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.2.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.2.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.2.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.0.1.2.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.0.1.2.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.3.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.3.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.3.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.3.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.3.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.3.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.0.1.3.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.3.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.3.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.3.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.0.1.3.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.0.1.3.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.0.1.3.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.0.mlp.1.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.1.0.mlp.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.0.block1.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.1.0.block1.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.0.block1.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.0.block1.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.0.block2.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.1.0.block2.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.0.block2.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.0.block2.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.0.res_conv.weight": [
+    256,
+    256,
+    1
+  ],
+  "decoder.estimator.mid_blocks.1.0.res_conv.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.0.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.0.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.0.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.0.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.0.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.0.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.1.1.0.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.0.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.0.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.0.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.0.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.1.1.0.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.1.1.0.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.1.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.1.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.1.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.1.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.1.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.1.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.1.1.1.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.1.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.1.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.1.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.1.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.1.1.1.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.1.1.1.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.2.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.2.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.2.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.2.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.2.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.2.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.1.1.2.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.2.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.2.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.2.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.2.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.1.1.2.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.1.1.2.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.3.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.3.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.3.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.3.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.3.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.3.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.1.1.3.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.3.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.3.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.3.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.1.1.3.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.1.1.3.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.1.1.3.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.0.mlp.1.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.2.0.mlp.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.0.block1.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.2.0.block1.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.0.block1.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.0.block1.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.0.block2.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.2.0.block2.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.0.block2.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.0.block2.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.0.res_conv.weight": [
+    256,
+    256,
+    1
+  ],
+  "decoder.estimator.mid_blocks.2.0.res_conv.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.0.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.0.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.0.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.0.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.0.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.0.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.2.1.0.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.0.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.0.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.0.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.0.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.2.1.0.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.2.1.0.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.1.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.1.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.1.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.1.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.1.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.1.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.2.1.1.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.1.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.1.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.1.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.1.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.2.1.1.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.2.1.1.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.2.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.2.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.2.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.2.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.2.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.2.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.2.1.2.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.2.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.2.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.2.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.2.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.2.1.2.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.2.1.2.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.3.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.3.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.3.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.3.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.3.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.3.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.2.1.3.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.3.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.3.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.3.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.2.1.3.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.2.1.3.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.2.1.3.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.0.mlp.1.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.3.0.mlp.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.0.block1.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.3.0.block1.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.0.block1.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.0.block1.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.0.block2.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.3.0.block2.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.0.block2.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.0.block2.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.0.res_conv.weight": [
+    256,
+    256,
+    1
+  ],
+  "decoder.estimator.mid_blocks.3.0.res_conv.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.0.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.0.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.0.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.0.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.0.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.0.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.3.1.0.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.0.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.0.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.0.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.0.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.3.1.0.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.3.1.0.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.1.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.1.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.1.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.1.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.1.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.1.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.3.1.1.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.1.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.1.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.1.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.1.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.3.1.1.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.3.1.1.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.2.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.2.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.2.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.2.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.2.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.2.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.3.1.2.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.2.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.2.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.2.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.2.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.3.1.2.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.3.1.2.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.3.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.3.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.3.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.3.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.3.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.3.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.3.1.3.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.3.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.3.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.3.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.3.1.3.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.3.1.3.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.3.1.3.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.0.mlp.1.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.4.0.mlp.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.0.block1.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.4.0.block1.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.0.block1.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.0.block1.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.0.block2.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.4.0.block2.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.0.block2.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.0.block2.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.0.res_conv.weight": [
+    256,
+    256,
+    1
+  ],
+  "decoder.estimator.mid_blocks.4.0.res_conv.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.0.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.0.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.0.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.0.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.0.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.0.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.4.1.0.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.0.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.0.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.0.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.0.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.4.1.0.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.4.1.0.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.1.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.1.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.1.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.1.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.1.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.1.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.4.1.1.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.1.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.1.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.1.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.1.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.4.1.1.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.4.1.1.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.2.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.2.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.2.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.2.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.2.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.2.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.4.1.2.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.2.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.2.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.2.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.2.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.4.1.2.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.4.1.2.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.3.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.3.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.3.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.3.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.3.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.3.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.4.1.3.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.3.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.3.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.3.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.4.1.3.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.4.1.3.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.4.1.3.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.0.mlp.1.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.5.0.mlp.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.0.block1.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.5.0.block1.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.0.block1.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.0.block1.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.0.block2.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.5.0.block2.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.0.block2.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.0.block2.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.0.res_conv.weight": [
+    256,
+    256,
+    1
+  ],
+  "decoder.estimator.mid_blocks.5.0.res_conv.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.0.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.0.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.0.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.0.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.0.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.0.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.5.1.0.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.0.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.0.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.0.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.0.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.5.1.0.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.5.1.0.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.1.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.1.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.1.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.1.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.1.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.1.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.5.1.1.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.1.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.1.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.1.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.1.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.5.1.1.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.5.1.1.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.2.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.2.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.2.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.2.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.2.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.2.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.5.1.2.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.2.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.2.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.2.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.2.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.5.1.2.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.5.1.2.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.3.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.3.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.3.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.3.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.3.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.3.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.5.1.3.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.3.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.3.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.3.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.5.1.3.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.5.1.3.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.5.1.3.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.0.mlp.1.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.6.0.mlp.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.0.block1.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.6.0.block1.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.0.block1.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.0.block1.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.0.block2.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.6.0.block2.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.0.block2.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.0.block2.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.0.res_conv.weight": [
+    256,
+    256,
+    1
+  ],
+  "decoder.estimator.mid_blocks.6.0.res_conv.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.0.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.0.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.0.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.0.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.0.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.0.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.6.1.0.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.0.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.0.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.0.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.0.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.6.1.0.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.6.1.0.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.1.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.1.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.1.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.1.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.1.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.1.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.6.1.1.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.1.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.1.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.1.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.1.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.6.1.1.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.6.1.1.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.2.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.2.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.2.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.2.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.2.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.2.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.6.1.2.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.2.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.2.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.2.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.2.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.6.1.2.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.6.1.2.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.3.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.3.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.3.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.3.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.3.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.3.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.6.1.3.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.3.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.3.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.3.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.6.1.3.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.6.1.3.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.6.1.3.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.0.mlp.1.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.7.0.mlp.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.0.block1.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.7.0.block1.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.0.block1.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.0.block1.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.0.block2.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.7.0.block2.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.0.block2.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.0.block2.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.0.res_conv.weight": [
+    256,
+    256,
+    1
+  ],
+  "decoder.estimator.mid_blocks.7.0.res_conv.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.0.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.0.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.0.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.0.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.0.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.0.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.7.1.0.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.0.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.0.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.0.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.0.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.7.1.0.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.7.1.0.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.1.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.1.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.1.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.1.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.1.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.1.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.7.1.1.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.1.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.1.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.1.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.1.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.7.1.1.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.7.1.1.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.2.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.2.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.2.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.2.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.2.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.2.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.7.1.2.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.2.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.2.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.2.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.2.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.7.1.2.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.7.1.2.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.3.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.3.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.3.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.3.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.3.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.3.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.7.1.3.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.3.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.3.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.3.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.7.1.3.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.7.1.3.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.7.1.3.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.0.mlp.1.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.8.0.mlp.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.0.block1.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.8.0.block1.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.0.block1.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.0.block1.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.0.block2.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.8.0.block2.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.0.block2.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.0.block2.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.0.res_conv.weight": [
+    256,
+    256,
+    1
+  ],
+  "decoder.estimator.mid_blocks.8.0.res_conv.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.0.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.0.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.0.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.0.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.0.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.0.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.8.1.0.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.0.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.0.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.0.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.0.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.8.1.0.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.8.1.0.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.1.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.1.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.1.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.1.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.1.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.1.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.8.1.1.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.1.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.1.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.1.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.1.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.8.1.1.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.8.1.1.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.2.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.2.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.2.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.2.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.2.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.2.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.8.1.2.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.2.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.2.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.2.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.2.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.8.1.2.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.8.1.2.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.3.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.3.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.3.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.3.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.3.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.3.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.8.1.3.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.3.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.3.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.3.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.8.1.3.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.8.1.3.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.8.1.3.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.0.mlp.1.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.9.0.mlp.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.0.block1.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.9.0.block1.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.0.block1.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.0.block1.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.0.block2.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.9.0.block2.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.0.block2.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.0.block2.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.0.res_conv.weight": [
+    256,
+    256,
+    1
+  ],
+  "decoder.estimator.mid_blocks.9.0.res_conv.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.0.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.0.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.0.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.0.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.0.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.0.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.9.1.0.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.0.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.0.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.0.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.0.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.9.1.0.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.9.1.0.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.1.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.1.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.1.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.1.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.1.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.1.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.9.1.1.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.1.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.1.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.1.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.1.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.9.1.1.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.9.1.1.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.2.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.2.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.2.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.2.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.2.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.2.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.9.1.2.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.2.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.2.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.2.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.2.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.9.1.2.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.9.1.2.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.3.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.3.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.3.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.3.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.3.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.3.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.9.1.3.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.3.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.3.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.3.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.9.1.3.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.9.1.3.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.9.1.3.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.0.mlp.1.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.10.0.mlp.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.0.block1.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.10.0.block1.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.0.block1.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.0.block1.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.0.block2.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.10.0.block2.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.0.block2.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.0.block2.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.0.res_conv.weight": [
+    256,
+    256,
+    1
+  ],
+  "decoder.estimator.mid_blocks.10.0.res_conv.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.0.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.0.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.0.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.0.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.0.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.0.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.10.1.0.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.0.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.0.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.0.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.0.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.10.1.0.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.10.1.0.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.1.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.1.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.1.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.1.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.1.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.1.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.10.1.1.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.1.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.1.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.1.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.1.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.10.1.1.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.10.1.1.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.2.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.2.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.2.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.2.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.2.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.2.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.10.1.2.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.2.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.2.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.2.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.2.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.10.1.2.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.10.1.2.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.3.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.3.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.3.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.3.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.3.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.3.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.10.1.3.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.3.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.3.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.3.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.10.1.3.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.10.1.3.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.10.1.3.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.0.mlp.1.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.11.0.mlp.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.0.block1.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.11.0.block1.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.0.block1.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.0.block1.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.0.block2.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.mid_blocks.11.0.block2.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.0.block2.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.0.block2.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.0.res_conv.weight": [
+    256,
+    256,
+    1
+  ],
+  "decoder.estimator.mid_blocks.11.0.res_conv.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.0.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.0.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.0.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.0.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.0.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.0.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.11.1.0.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.0.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.0.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.0.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.0.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.11.1.0.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.11.1.0.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.1.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.1.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.1.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.1.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.1.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.1.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.11.1.1.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.1.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.1.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.1.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.1.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.11.1.1.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.11.1.1.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.2.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.2.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.2.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.2.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.2.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.2.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.11.1.2.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.2.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.2.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.2.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.2.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.11.1.2.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.11.1.2.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.3.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.3.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.3.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.3.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.3.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.3.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.mid_blocks.11.1.3.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.3.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.3.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.3.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.mid_blocks.11.1.3.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.mid_blocks.11.1.3.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.mid_blocks.11.1.3.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.0.mlp.1.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.up_blocks.0.0.mlp.1.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.0.block1.block.0.weight": [
+    256,
+    512,
+    3
+  ],
+  "decoder.estimator.up_blocks.0.0.block1.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.0.block1.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.0.block1.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.0.block2.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.up_blocks.0.0.block2.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.0.block2.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.0.block2.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.0.res_conv.weight": [
+    256,
+    512,
+    1
+  ],
+  "decoder.estimator.up_blocks.0.0.res_conv.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.0.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.0.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.0.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.0.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.0.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.0.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.up_blocks.0.1.0.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.0.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.0.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.0.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.0.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.up_blocks.0.1.0.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.up_blocks.0.1.0.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.1.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.1.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.1.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.1.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.1.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.1.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.up_blocks.0.1.1.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.1.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.1.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.1.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.1.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.up_blocks.0.1.1.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.up_blocks.0.1.1.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.2.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.2.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.2.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.2.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.2.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.2.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.up_blocks.0.1.2.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.2.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.2.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.2.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.2.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.up_blocks.0.1.2.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.up_blocks.0.1.2.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.3.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.3.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.3.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.3.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.3.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.3.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.up_blocks.0.1.3.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.3.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.3.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.3.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.up_blocks.0.1.3.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.up_blocks.0.1.3.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.up_blocks.0.1.3.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.0.2.conv.weight": [
+    256,
+    256,
+    4
+  ],
+  "decoder.estimator.up_blocks.0.2.conv.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.0.mlp.1.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.up_blocks.1.0.mlp.1.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.0.block1.block.0.weight": [
+    256,
+    512,
+    3
+  ],
+  "decoder.estimator.up_blocks.1.0.block1.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.0.block1.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.0.block1.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.0.block2.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.up_blocks.1.0.block2.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.0.block2.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.0.block2.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.0.res_conv.weight": [
+    256,
+    512,
+    1
+  ],
+  "decoder.estimator.up_blocks.1.0.res_conv.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.0.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.0.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.0.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.0.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.0.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.0.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.up_blocks.1.1.0.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.0.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.0.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.0.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.0.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.up_blocks.1.1.0.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.up_blocks.1.1.0.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.1.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.1.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.1.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.1.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.1.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.1.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.up_blocks.1.1.1.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.1.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.1.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.1.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.1.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.up_blocks.1.1.1.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.up_blocks.1.1.1.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.2.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.2.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.2.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.2.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.2.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.2.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.up_blocks.1.1.2.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.2.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.2.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.2.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.2.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.up_blocks.1.1.2.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.up_blocks.1.1.2.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.3.norm1.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.3.norm1.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.3.attn1.to_q.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.3.attn1.to_k.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.3.attn1.to_v.weight": [
+    512,
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.3.attn1.to_out.0.weight": [
+    256,
+    512
+  ],
+  "decoder.estimator.up_blocks.1.1.3.attn1.to_out.0.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.3.norm3.weight": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.3.norm3.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.3.ff.net.0.proj.weight": [
+    1024,
+    256
+  ],
+  "decoder.estimator.up_blocks.1.1.3.ff.net.0.proj.bias": [
+    1024
+  ],
+  "decoder.estimator.up_blocks.1.1.3.ff.net.2.weight": [
+    256,
+    1024
+  ],
+  "decoder.estimator.up_blocks.1.1.3.ff.net.2.bias": [
+    256
+  ],
+  "decoder.estimator.up_blocks.1.2.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.up_blocks.1.2.bias": [
+    256
+  ],
+  "decoder.estimator.final_block.block.0.weight": [
+    256,
+    256,
+    3
+  ],
+  "decoder.estimator.final_block.block.0.bias": [
+    256
+  ],
+  "decoder.estimator.final_block.block.1.weight": [
+    256
+  ],
+  "decoder.estimator.final_block.block.1.bias": [
+    256
+  ],
+  "decoder.estimator.final_proj.weight": [
+    80,
+    256,
+    1
+  ],
+  "decoder.estimator.final_proj.bias": [
+    80
+  ],
+  "length_regulator.model.0.weight": [
+    80,
+    80,
+    3
+  ],
+  "length_regulator.model.0.bias": [
+    80
+  ],
+  "length_regulator.model.1.weight": [
+    80
+  ],
+  "length_regulator.model.1.bias": [
+    80
+  ],
+  "length_regulator.model.3.weight": [
+    80,
+    80,
+    3
+  ],
+  "length_regulator.model.3.bias": [
+    80
+  ],
+  "length_regulator.model.4.weight": [
+    80
+  ],
+  "length_regulator.model.4.bias": [
+    80
+  ],
+  "length_regulator.model.6.weight": [
+    80,
+    80,
+    3
+  ],
+  "length_regulator.model.6.bias": [
+    80
+  ],
+  "length_regulator.model.7.weight": [
+    80
+  ],
+  "length_regulator.model.7.bias": [
+    80
+  ],
+  "length_regulator.model.9.weight": [
+    80,
+    80,
+    3
+  ],
+  "length_regulator.model.9.bias": [
+    80
+  ],
+  "length_regulator.model.10.weight": [
+    80
+  ],
+  "length_regulator.model.10.bias": [
+    80
+  ],
+  "length_regulator.model.12.weight": [
+    80,
+    80,
+    1
+  ],
+  "length_regulator.model.12.bias": [
+    80
+  ]
+}
